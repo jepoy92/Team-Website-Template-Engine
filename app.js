@@ -133,7 +133,7 @@ const writeHTMLtoFile = (html) => {
         if (err) {
             return console.log(err);
          }
-         console.log ("Your team HTML file is complete.")
+         console.log ("Your team site is complete.")
     });
 };
 
