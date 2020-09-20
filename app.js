@@ -16,25 +16,25 @@ const enterEmployeeInfo = () => {
 
 inquirer.prompt([
 
-    { //Name
+    { 
         type: "input",
         name: "name",
         message:"Please enter employee's full name."
     },
 
-    { //ID Number
+    { 
         type: "input",
         name: "id",
         message:"What is the employee's ID number?"
     },
 
-    { //Email
+    { 
         type: "input",
         name: "email",
         message:"Please enter employee's email address."
     },
     
-    { //Role
+    { 
         type: "list",
         name: "role",
         message:"What is the employee's job title?",
@@ -50,24 +50,24 @@ inquirer.prompt([
 
         switch(role) {
 
-            //Manager Office Number
+            
             case "Manager":
                 specificQuestions(role, "officeNumber", "Manager's office number?", userInput);
             break;
 
-            //Engineer Github
+            
             case "Engineer":
                 specificQuestions(role, "github", "Engineer's gitHub Username?", userInput);
             break;
 
-            //Intern School
+            
             case "Intern":
                 specificQuestions(role, "school", "Intern's school name?", userInput);
             break;
         }
     });
 }
-    //Questions for specific roles.
+    
 const specificQuestions = (role, inputType, message, userInput) => {
         inquirer.prompt ([
                 {
@@ -124,9 +124,7 @@ const addEmployee = () => {
             writeHTMLtoFile(html);
         }
     });
-}   // After the user has input all employees desired, call the `render` function (required
-    // above) and pass in an array containing all employee objects; the `render` function will
-    // generate and return a block of HTML including templated divs for each employee!
+}
 
 const writeHTMLtoFile = (html) => {
     fs.writeFile(outputPath, html, function(err) {
