@@ -34,7 +34,31 @@ To run the app, simply enter "node app.js" into your command line.
 
 ## Contributing
 
-UCSD Coding Bootcamp activities and class sessions.
+- [Zachary Bryan](https://github.com/zacharybryan)
+- [Tim Sanders](https://github.com/tbsanders5)
+- [Nick Konzen](https://github.com/NTKonzen)
+- [Kira Bismuth Lowrey](https://github.com/KILowrey)
+- [Nancy Lambert-Brown](https://github.com/n-lambert)
+- [Mando Estrada](https://github.com/Mando619)
+- [Talia Vazquez](https://github.com/taliavazquez)
+- [Perry Theobald](https://github.com/perrytjr)
+- [Jeneth Diestra](https://github.com/jen6one9)
+- [Matthew Rogers](https://github.com/Rogers-Development-Services)
+- [Clyde Baron Rapinan](https://github.com/clydebaron2000)
+- [Johnny Lieu](https://github.com/johnnylieu)
+- [Robert Graham](https://github.com/Robmgraham)
+- [Plover Brown](https://github.com/rebgrasshopper)
+- [Talia Vazquez](https://github.com/taliavazquez)
+- [Nancy Lambert-Brown](https://github.com/n-lambert)
+- [Zachary Bryan](https://github.com/zacharybryan)
+- [Perry Theobald](https://github.com/perrytjr)
+- [Tim Sanders](https://github.com/tbsanders5)
+- [Jeneth Diesta](https://github.com/jen6one9)
+- [Matthew Rogers](https://github.com/Rogers-Development-Services)
+- [Mando Estrada](https://github.com/Mando619)
+- [Clyde Baron Rapinan](https://github.com/clydebaron2000)
+- [Johnny Lieu](https://github.com/johnnylieu)
+- [Robert Graham](https://github.com/Robmgraham)
 
 ## Tests 
 
